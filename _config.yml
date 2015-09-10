@@ -12,3 +12,5 @@ github_username:  nilghe
 markdown: kramdown
 
 exclude: [bower_components]
+sass:
+  style: compressed
