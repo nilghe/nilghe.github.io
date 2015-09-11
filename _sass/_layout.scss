@@ -15,14 +15,27 @@ header {
         color: $white-color;
         font-size: 4em;
 
+        @media screen and (min-width: $on-palm) {
+            margin: 0;
+        }
+
         @media screen and (max-width: $on-palm) {
             font-size: 2.5em;
+        }
+
+        @media screen and (max-width: $sm-mobile) {
+            font-size: 2em;
         }
     }
 
     img {
         border: 1px solid $purple-color;
+        width: 30%;
+
         @include prefix(border-radius, 50%, webkit ms);
+        @media screen and (max-width: $on-palm) {
+            width: 50%;
+        }
     }
 }
 
