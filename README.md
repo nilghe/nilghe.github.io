@@ -1,3 +1,3 @@
 # nilghe.com
 
-Personal website greated with <3 and Jekyll
+Personal website created with <3 and Jekyll
