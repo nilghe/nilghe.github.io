@@ -74,6 +74,10 @@ header {
         a:hover {
             color: $purple-color;
             margin-left: $spacing-unit / 4;
+
+            @include media-query($on-palm) {
+                margin-left: 0;
+            }
         }
 
         h1,

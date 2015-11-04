@@ -5,6 +5,10 @@
         display: inline-block;
         list-style: none;
         padding: 0 $spacing-unit;
+
+        @include media-query($on-palm) {
+            padding: $spacing-unit / 2;
+        }
     }
     a,
     a:visited,
