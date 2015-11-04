@@ -1,27 +1,45 @@
 ---
 layout: default
 ---
-<!-- 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div> -->
-<p>Web & Mobile Full Stack Developer in Tokyo, Japan</p>
+<p>Web & Mobile Full Stack Developer located in Tokyo, Japan</p>
 <div class="lets-talk">
   <a href="mailto:{{site.email}}">Get in touch</a>
+</div>
+<div class="social">
+  {% include social.html %}
+</div>
+<div class="portfolio">
+  <h1>Portfolio</h1>
+  <p>Collection of notable projects I have been a part of both professionally and personally. Due to contractual obligations details of select projects are not included.</p>
+  {% assign projects = site.data.portfolio | sort: 'order' %}
+  {% for project in projects %}
+    <div class="project">
+      <h2>
+        {{ project.title }}
+        {% if project.url %}
+          <a href="{{ project.url }}"><i class="fa fa-external-link-square"></i></a>
+        {% endif %}
+        {% if project.github %}
+          <a href="{{ project.github }}"><i class="fa fa-github"></i></a>
+        {% endif %}
+      </h2>
+      
+      {% if project.img %}
+        <img src="/img/{{ project.img }}" />
+      {% endif %}
+
+      {% for desc in project.desc %}
+        <p>{{ desc }}</p>
+      {% endfor %}
+      
+      {% if project.technology %}
+        <h3>Technologies</h3>
+        <ul>
+          {% for technology in project.technology %}
+            <li>{{ technology }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  {% endfor %}
 </div>

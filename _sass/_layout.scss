@@ -64,26 +64,35 @@ header {
             }
         }
     }
+
+    .portfolio {
+        text-align: left;
+
+        a,
+        a:visited,
+        a:active,
+        a:hover {
+            color: $purple-color;
+            margin-left: $spacing-unit / 4;
+        }
+
+        h1,
+        h2 {
+            margin-top: $spacing-unit / 2;
+        }
+
+        .project {
+            border-top: 1px solid #ccc;
+        }
+
+        img {
+            margin-bottom: $spacing-unit / 2;
+        }
+    }
 }
 
 footer {
     text-align: center;
-    ul {
-        margin: 0;
-        li {
-            font-size: 2em;
-            display: inline-block;
-            list-style: none;
-            padding: 0 $spacing-unit;
-        }
-    }
-
-    a,
-    a:visited,
-    a:active,
-    a:hover {
-        color: $purple-color;
-    }
 }
 
 /**

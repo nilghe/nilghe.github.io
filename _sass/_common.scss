@@ -1,0 +1,15 @@
+.social-icons {
+    margin: $spacing-unit / 2 0;
+    li {
+        font-size: 2em;
+        display: inline-block;
+        list-style: none;
+        padding: 0 $spacing-unit;
+    }
+    a,
+    a:visited,
+    a:active,
+    a:hover {
+        color: $purple-color;
+    }
+}

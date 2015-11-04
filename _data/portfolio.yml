@@ -1,0 +1,71 @@
+- title: Premium Networking Web Application
+  desc:
+    - Part of a three-developer team to create a web application assisting high profile business executives to network with each other in an online setting.
+    - I was the lead in developing the project list, commenting, searching, and admin backend. I implemented the systems to handle translations between Japanese and English, working in the front-end with reactjs and using Vagrant to handle our Django backend.  I also created a workflow for the team using a mixture of git and gulpjs.
+  order: 1
+  technology:
+    - Django
+    - Vagrant
+    - Reactjs
+    - gulpjs
+    - SASS
+    - Apache
+    - git
+
+- title: Marketing Web Game
+  order: 2
+  desc:
+    - Part of a two-developer team to create a web-based maze game for a client. My role was the logic for the game (timer, keeping score and transition between levels), collision detection, and creating the animations for the sprites.
+  technology:
+    - JavaScript / jQuery
+    - Easeljs
+    - git
+
+- title: High Profile Web Campaign Creation
+  order: 3
+  desc: 
+    - A multi-national client required a multi-page website created for a time sensitive and high profile campaign. Usage of simple HTML/CSS and JavaScript to make it happen in a one week period.
+
+- title: Employee On-boarding Website
+  order: 4
+  desc: 
+    - A client had an “out of the box” idea for a web site for their on-boarding process for employees. The result was a one page web app which displayed pages as “tiles” on the page and they shifted around the page to reveal other sections. Not only was this a design challenge code wise, but also a technical challenge in optimization to ensure all major browsers could handle the heavy page.
+
+- title: 8-Bit Christmas Tree Plugin
+  order: 5
+  desc: 
+    - A simple weekend project that creates an “8-bit Tree” to display on your website. Complete with blinking lights.
+  technology:
+    - JavaScript / jQuery
+    - git
+
+- title: OfferMe iOS & Web App
+  order: 6
+  url: http://www.offerme.ca/
+  img: offerme.png
+  desc: 
+    - Part of a start-up team where I developed parts of the iOS application along with the Django web app. My roles included integrating Facebook authentication inside the iOS app and adding new features to the admin backend on the web app.
+
+- title: TDRExplorer
+  order: 7
+  url: http://tdrexplorer.com
+  img: tdrexplorer.png
+  desc:
+    - A WordPress website which focuses heavily on creating content to help English speakers visit Tokyo Disney Resort. While not developer focused, it has improved my writing, marketing, and team management skills immensely.
+
+- title: TDRNow
+  order: 8
+  github: https://github.com/nilghe/tdrnow
+  desc: 
+    - A web app created using reactjs along with altjs (to help with data flow and reduce boilerplate code0 to create a simple one page application displaying relevant information pertaining to Tokyo Disney Resort such as weather, park hours, and attraction wait times.
+  technology:
+    - reactjs / altjs
+    - gulpjs
+    - git
+    - bower
+
+- title: Christmas Card App
+  order: 9
+  github: https://github.com/nilghe/Christmas
+  desc:
+    - One year, instead of writing out Christmas cards by hand, I created a very simple web app to send digital greetings. Users redeem a code provided to them and a festive Christmas card is generated on screen for them. It's now been used for the past two years to hand out cards to friends and family.
