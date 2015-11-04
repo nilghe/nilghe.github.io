@@ -33,6 +33,8 @@
 
 - title: 8-Bit Christmas Tree Plugin
   order: 5
+  github: https://github.com/nilghe/PixelChristmasTree
+  url: http://pixel.nilghe.com/
   desc: 
     - A simple weekend project that creates an “8-bit Tree” to display on your website. Complete with blinking lights.
   technology:
