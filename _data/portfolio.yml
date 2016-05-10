@@ -59,7 +59,7 @@
   order: 8
   github: https://github.com/nilghe/tdrnow
   desc: 
-    - A web app created using reactjs along with altjs (to help with data flow and reduce boilerplate code0 to create a simple one page application displaying relevant information pertaining to Tokyo Disney Resort such as weather, park hours, and attraction wait times.
+    - A web app created using reactjs along with altjs (to help with data flow and reduce boilerplate code) to create a simple one page application displaying relevant information pertaining to Tokyo Disney Resort such as weather, park hours, and attraction wait times.
   technology:
     - reactjs / altjs
     - gulpjs
