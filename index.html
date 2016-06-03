@@ -17,10 +17,13 @@ layout: default
       <h2>
         {{ project.title }}
         {% if project.url %}
-          <a href="{{ project.url }}"><i class="fa fa-external-link-square"></i></a>
+          <a href="{{ project.url }}"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
         {% endif %}
         {% if project.github %}
-          <a href="{{ project.github }}"><i class="fa fa-github"></i></a>
+          <a href="{{ project.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if project.gitlab %}
+          <a href="{{ project.github }}"><i class="fa fa-gitlab" aria-hidden="true"></i></a>
         {% endif %}
       </h2>
       

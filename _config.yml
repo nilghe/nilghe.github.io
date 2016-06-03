@@ -1,12 +1,13 @@
 # Site settings
-title: Christopher Nilghe | Web & Mobile Developer
+title: Christopher Nilghe | Web & iOS Full-stack Developer
 email: chris@nilghe.com
 description: > # this means to ignore newlines until "baseurl:"
-  A mobile & web app developer living in Tokyo Japan
+  A iOS & reactjs app developer living in Tokyo Japan
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nilghe.com" # the base hostname & protocol for your site
 twitter_username: burninlover
 github_username:  nilghe
+gitlab_username:  nilghe
 linkedin_username: chrisnilghe
 
 # Build settings

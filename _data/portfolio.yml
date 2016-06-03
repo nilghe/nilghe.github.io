@@ -1,16 +1,14 @@
-- title: Premium Networking Web Application
-  desc:
-    - Part of a three-developer team to create a web application assisting high profile business executives to network with each other in an online setting.
-    - I was the lead in developing the project list, commenting, searching, and admin backend. I implemented the systems to handle translations between Japanese and English, working in the front-end with reactjs and using Vagrant to handle our Django backend.  I also created a workflow for the team using a mixture of git and gulpjs.
+- title: TDRNow Wait Times
   order: 1
+  url: https://tdrnow.com
+  gitlab: https://gitlab.com/nilghe/tdrnow
+  img: tdrnow.png
+  desc: 
+    - A reactjs app created with react-router and altjs. Displays wait times for attracitons at Tokyo Disney Resort in English. Solving the problem for English speakers that visit the parks.
   technology:
-    - Django
-    - Vagrant
-    - Reactjs
+    - reactjs / altjs
     - gulpjs
-    - SASS
-    - Apache
-    - git
+    - auto deployments
 
 - title: Marketing Web Game
   order: 2
@@ -55,16 +53,20 @@
   desc:
     - A WordPress website which focuses heavily on creating content to help English speakers visit Tokyo Disney Resort. While not developer focused, it has improved my writing, marketing, and team management skills immensely.
 
-- title: TDRNow
+- title: Premium Networking Web Application
+  desc:
+    - Part of a three-developer team to create a web application assisting high profile business executives to network with each other in an online setting.
+    - I was the lead in developing the project list, commenting, searching, and admin backend. I implemented the systems to handle translations between Japanese and English, working in the front-end with reactjs and using Vagrant to handle our Django backend.  I also created a workflow for the team using a mixture of git and gulpjs.
   order: 8
-  github: https://github.com/nilghe/tdrnow
-  desc: 
-    - A web app created using reactjs along with altjs (to help with data flow and reduce boilerplate code) to create a simple one page application displaying relevant information pertaining to Tokyo Disney Resort such as weather, park hours, and attraction wait times.
   technology:
-    - reactjs / altjs
+    - Django
+    - Vagrant
+    - Reactjs
     - gulpjs
+    - SASS
+    - Apache
     - git
-    - bower
+
 
 - title: Christmas Card App
   order: 9
